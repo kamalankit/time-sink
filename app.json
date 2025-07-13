@@ -7,11 +7,7 @@
     "icon": "./assets/images/icon.png",
     "scheme": "myapp",
     "userInterfaceStyle": "automatic",
-    "sdkVersion": "53.0.0",
     "platforms": ["ios", "android", "web"],
-    "runtimeVersion": {
-      "policy": "sdkVersion"
-    },
     "ios": {
       "supportsTablet": true,
       "bundleIdentifier": "com.boltexpo.timesink"
@@ -25,7 +21,6 @@
     },
     "web": {
       "bundler": "metro",
-      "output": "single",
       "favicon": "./assets/images/favicon.png"
     },
     "plugins": [
@@ -49,10 +44,6 @@
     ],
     "experiments": {
       "typedRoutes": true
-    },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
-    "newArchEnabled": false
+    }
   }
 }
