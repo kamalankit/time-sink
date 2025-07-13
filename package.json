@@ -3,9 +3,10 @@
   "main": "expo-router/entry",
   "version": "1.0.0",
   "private": true,
-  "type": "module",
+
   "scripts": {
-    "dev": "EXPO_NO_TELEMETRY=1 expo start",
+    "dev": "NODE_OPTIONS='--loader ts-node/esm' EXPO_NO_TELEMETRY=1 expo start",
+    "dev-alt": "node start.js",
     "build:web": "expo export --platform web",
     "lint": "expo lint"
   },
@@ -39,7 +40,7 @@
   "devDependencies": {
     "@babel/core": "^7.25.2",
     "@types/react": "~18.2.0",
-    "ts-node": "^10.9.2",
-    "typescript": "~5.8.3"
+    "typescript": "~5.8.3",
+    "ts-node": "^10.9.1"
   }
 }
