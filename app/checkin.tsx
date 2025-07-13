@@ -5,7 +5,7 @@ import { useGoals, CheckIn as CheckInData } from '@/contexts/GoalContext';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { GlassCard } from '@/components/ui/GlassCard';
 import { PremiumButton } from '@/components/ui/PremiumButton';
-import { ArrowLeft, Target, Calendar, MessageSquare, Smile, Frown, Meh, ThumbsUp, Star } from 'lucide-react-native';
+import { ArrowLeft, Target, Calendar } from 'lucide-react-native';
 import { router, useLocalSearchParams } from 'expo-router';
 import { LinearGradient } from 'expo-linear-gradient';
 
