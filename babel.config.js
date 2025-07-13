@@ -3,7 +3,10 @@ module.exports = function (api) {
   return {
     presets: [
       'babel-preset-expo',
-      ['@babel/preset-typescript', { allowDeclareFields: true }]
+      ['@babel/preset-typescript', { 
+        allowDeclareFields: true,
+        allowNamespaces: true
+      }]
     ],
     plugins: [
       'react-native-reanimated/plugin',

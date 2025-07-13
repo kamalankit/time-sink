@@ -1,20 +1,24 @@
 {
-  "name": "bolt-expo-starter",
+  "name": "time-sink-expo-53",
   "main": "expo-router/entry",
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "dev": "EXPO_NO_TELEMETRY=1 expo start",
-    "dev-alt": "node start.js",
+    "dev": "expo start",
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web",
     "build:web": "expo export --platform web",
-    "lint": "expo lint"
+    "lint": "expo lint",
+    "reset": "expo start --clear"
   },
   "dependencies": {
     "@expo-google-fonts/inter": "^0.4.1",
     "@expo/vector-icons": "^14.1.0",
     "@react-native-async-storage/async-storage": "^2.2.0",
     "@react-native-community/datetimepicker": "^8.2.0",
-    "expo": "~52.0.11",
+    "expo": "~52.0.30",
     "expo-camera": "~16.1.5",
     "expo-constants": "~17.0.3",
     "expo-font": "~13.2.2",
@@ -40,9 +44,8 @@
     "@babel/core": "^7.25.2",
     "@babel/preset-typescript": "^7.25.2",
     "@types/node": "^20.0.0",
-    "ts-node": "^10.9.0",
     "@types/react": "~18.2.0",
+    "ts-node": "^10.9.0",
     "typescript": "~5.3.3"
-  },
-  "type": "module"
+  }
 }

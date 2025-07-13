@@ -1,24 +1,23 @@
 {
   "expo": {
-    "name": "bolt-expo-nativewind",
-    "slug": "bolt-expo-nativewind",
+    "name": "TimeSink",
+    "slug": "time-sink-expo-53",
     "version": "1.0.0",
-    "sdkVersion": "52.0.11",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
-    "scheme": "myapp",
+    "scheme": "timesink",
     "userInterfaceStyle": "automatic",
     "platforms": ["ios", "android", "web"],
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.boltexpo.timesink"
+      "bundleIdentifier": "com.timesink.app"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/icon.png",
         "backgroundColor": "#FFFFFF"
       },
-      "package": "com.boltexpo.timesink"
+      "package": "com.timesink.app"
     },
     "web": {
       "bundler": "metro",
