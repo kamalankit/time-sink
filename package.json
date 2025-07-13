@@ -3,7 +3,6 @@
   "main": "expo-router/entry",
   "version": "1.0.0",
   "private": true,
-
   "scripts": {
     "dev": "NODE_OPTIONS='--loader ts-node/esm' EXPO_NO_TELEMETRY=1 expo start",
     "dev-alt": "node start.js",
@@ -39,8 +38,9 @@
   },
   "devDependencies": {
     "@babel/core": "^7.25.2",
+    "@babel/plugin-transform-typescript": "^7.28.0",
     "@types/react": "~18.2.0",
-    "typescript": "~5.8.3",
-    "ts-node": "^10.9.1"
+    "ts-node": "^10.9.1",
+    "typescript": "~5.8.3"
   }
 }
