@@ -7,15 +7,21 @@
     "icon": "./assets/images/icon.png",
     "scheme": "myapp",
     "userInterfaceStyle": "automatic",
-    "sdkVersion": "52.0.0",
+    "sdkVersion": "53.0.0",
+    "platforms": ["ios", "android", "web"],
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.boltexpo.timesink"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.boltexpo.timesink"
     },
     "web": {
       "bundler": "metro",
@@ -26,6 +32,12 @@
       "expo-router",
       "expo-font", 
       "expo-web-browser",
+      [
+        "expo-constants",
+        {
+          "enableInDevelopment": true
+        }
+      ],
       [
         "expo-camera",
         {
@@ -40,6 +52,7 @@
     },
     "assetBundlePatterns": [
       "**/*"
-    ]
+    ],
+    "newArchEnabled": false
   }
 }

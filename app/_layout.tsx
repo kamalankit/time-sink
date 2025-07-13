@@ -12,7 +12,7 @@ import {
   Inter_600SemiBold,
   Inter_700Bold,
 } from '@expo-google-fonts/inter';
-import * as SplashScreen from 'expo-splash-screen';
+import { SplashScreen } from 'expo-router';
 
 SplashScreen.preventAutoHideAsync();
 
