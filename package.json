@@ -3,6 +3,7 @@
   "main": "expo-router/entry",
   "version": "1.0.0",
   "private": true,
+  "type": "module",
   "scripts": {
     "dev": "EXPO_NO_TELEMETRY=1 expo start",
     "build:web": "expo export --platform web",
@@ -38,6 +39,7 @@
   "devDependencies": {
     "@babel/core": "^7.25.2",
     "@types/react": "~18.2.0",
-    "typescript": "~5.8.3"
+    "typescript": "~5.8.3",
+    "ts-node": "^10.9.1"
   }
 }
