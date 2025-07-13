@@ -5,7 +5,7 @@ import { useGoals, Goal } from '@/contexts/GoalContext';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { GlassCard } from '@/components/ui/GlassCard';
 import { PremiumButton } from '@/components/ui/PremiumButton';
-import { Plus, Target, Calendar, X, Edit3, ArrowUp, ArrowDown, MoreVertical } from 'lucide-react-native';
+import { Plus, Target, Calendar, X, CreditCard as Edit3, ArrowUp, ArrowDown, MoveVertical as MoreVertical } from 'lucide-react-native';
 import DateTimePicker from '@react-native-community/datetimepicker';
 import { LinearGradient } from 'expo-linear-gradient';
 

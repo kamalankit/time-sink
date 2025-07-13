@@ -5,7 +5,7 @@ import { useGoals } from '@/contexts/GoalContext';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { GlassCard } from '@/components/ui/GlassCard';
 import { PremiumButton } from '@/components/ui/PremiumButton';
-import { User, Moon, Sun, Bell, Star, Settings, HelpCircle, Shield, Trash2, ChevronRight } from 'lucide-react-native';
+import { User, Moon, Sun, Bell, Star, Settings, CircleHelp as HelpCircle, Shield, Trash2, ChevronRight } from 'lucide-react-native';
 
 export default function Profile() {
   const { colors, theme, setTheme } = useTheme();
